@@ -6,7 +6,7 @@
 *{padding: 0px; margin: 0px;}
 
 body{
-	background-color: #e0e0e0;
+	background-color: #f0f0f0;
 	font-family:Arial;
 }
 
@@ -18,10 +18,15 @@ header{
 
 #topo{
 	width: 700px;
+	height:110px;
 	margin: 0px auto;
 }
 
-
+#logo{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
 #logo img{
 	width: 100px;
 	height: 100px;
@@ -55,7 +60,7 @@ input[type=submit]{
 	font-weight: bold;
 	border: none;
 	border-radius: 10px;
-	background-color: rgba(0, 0, 255, 1);
+	background-color: rgba(0, 126, 182, 1);
 }
 
 input[type=submit]:hover{
@@ -63,19 +68,20 @@ input[type=submit]:hover{
 }
 
 
-/*links internos*/
+/*LINKS HEADER*/
 nav{
 	text-align: center;
 	clear: left;
 }
 
 nav a{
+	height:24px;
 	font-size: 18px;
 	font-weight:200;
 	font-family:OpenSans, Arial;
 	text-decoration: none;
-	padding: 10px;
-	color:#10d;
+	padding: 6px 6px 0px;
+	color:#007EB6;
 	border-bottom: 0px solid #33f;
 	transition: border-bottom ease-out 0.1s;
 }
@@ -88,8 +94,9 @@ nav a:hover{
 #marca-pagina{
 	border-bottom: 2px solid #33f;
 }
+/*FIM LINKS HEADER*/
 
-/*conteudo da página*/
+/*CONTEUDO DA PAGINA INDEX*/
 #banner{
 	height: 680px;
 	background: url(../img/banner/rio-capibaribe.jpg) no-repeat center;
@@ -97,7 +104,7 @@ nav a:hover{
 
 #conteudo{
 	width: 960px;
-	height: 722px;
+	min-height: 722px;
 	margin: 2px auto;
 	padding:2px;
 	background-color: #fff;
@@ -121,6 +128,15 @@ nav a:hover{
 	float:left;
 }
 
+.imgTopo img{
+	width:inherit;
+}
+.imgSmall img{
+	width:inherit;
+	height:inherit;
+}
+
+
 #imgBottom{
 	width:641px;
 	height:220px;
@@ -136,9 +152,27 @@ nav a:hover{
 	background-color:red;
 	float:right;
 }
+/*FIM CONTEUDO DA PAGINA INDEX*/
 
+/*CONTEUDO DAS PAGINAS*/
+.textoArtigo{
+	margin-top: 5px; 
+	width: 550px;
+	float: left;
+	padding-right: 20px;
+	margin-left:10px;
+	text-align: justify;
+	line-height:24px;
+	color: #808080;
+}
 
-/*footer*/
+.artigo h1{
+	margin:10px;
+	font-family:OpenSans, Arial;
+}
+
+/*FIM CONTEUDO DAS PAGINAS*/
+/*FOOTER*/
 footer{
 	height: 210px;
 	background-color: blue;
@@ -149,12 +183,12 @@ footer article{
 	margin: 0px auto;
 }
 
-p{
+footer p{
 	margin-top: 5px; 
 	width: 300px;
 	float: left;
 	padding-right: 30px;
-	text-align: center;
+	text-align: justify;
 	color: lightgray; 
 }
 
