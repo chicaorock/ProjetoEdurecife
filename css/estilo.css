@@ -1,4 +1,9 @@
-﻿*{padding: 0px; margin: 0px;}
+﻿@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+*{padding: 0px; margin: 0px;}
 
 body{
 	background-color: #C0C0C0;
@@ -66,8 +71,8 @@ nav{
 
 nav a{
 	font-size: 18px;
-	font-weight:lighter;
-	font-family:"Trebuchet MS",Arial,sans-serif;
+	font-weight:200;
+	font-family:OpenSans;
 	text-decoration: none;
 	padding: 10px;
 	color:#10d;
