@@ -1,0 +1,116 @@
+*{padding: 0px; margin: 0px;}
+
+body{
+	background-color: #C0C0C0;
+}
+
+/*cabeçalho*/
+header{
+	height: 132px;
+	background-color: #fff;
+}
+
+#topo{
+	width: 700px;
+	margin: 0px auto;
+}
+
+
+#logo img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#pesquisa{
+	float: right;
+	margin-top: 45px;
+}
+
+/*campo de texto*/
+input[type='text']{
+	width: 250px;
+	border-radius: 20px;
+	transition: background-color 0.3s;
+	background-color: #C0C0C0;
+}
+
+input[type='text']:focus{
+	transition: background-color 0.3s;
+	background-color: #fff;
+}
+
+input[type='submit']{
+	width: 100px;
+	height: 30px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	background-color: rgba(0, 0, 255, 1);
+}
+
+input[type='submit']:hover{
+	box-shadow: inset 0px 0px 8px;
+}
+
+
+/*links internos*/
+nav{
+	text-align: center;
+	clear: left;
+}
+
+nav a{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+	border-bottom: 0px solid blue;
+	transition: border-bottom 0.3s;
+}
+
+nav a:hover{
+	transition: border-bottom 0.3s;
+	border-bottom: 2px solid blue;
+}
+
+/*conteudo da página*/
+#banner{
+	height: 680px;
+	background: url(../img/banner/rio-capibaribe.jpg) no-repeat center;
+}
+
+#conteudo{
+	width: 910px;
+	height: 700px;
+	margin: 2px auto;
+	background-color: #fff;
+}
+
+/*footer*/
+footer{
+	height: 210px;
+	background-color: blue;
+}
+
+footer article{
+	width: 770px;
+	margin: 0px auto;
+}
+
+p{
+	margin-top: 5px; 
+	width: 300px;
+	float: left;
+	padding-right: 30px;
+	text-align: center;
+	color: lightgray; 
+}
+
+footer img{
+	margin-top: 5px; 
+	width: 30px;
+	height: 30px;
+	border-radius: 10px;
+}
