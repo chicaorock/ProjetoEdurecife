@@ -113,7 +113,6 @@ nav a:hover{
 	width:100%;;
 	height:200px;
 	overflow:hidden;
-	/*padding:1px;*/
 	background-color:aquamarine;
 	margin-bottom:2px;
 }
@@ -172,6 +171,8 @@ nav a:hover{
 }
 
 /*FIM CONTEUDO DAS PAGINAS*/
+
+
 /*FOOTER*/
 footer{
 	height: 210px;
