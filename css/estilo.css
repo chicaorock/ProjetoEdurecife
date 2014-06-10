@@ -6,7 +6,7 @@
 *{padding: 0px; margin: 0px;}
 
 body{
-	background-color: #C0C0C0;
+	background-color: #e0e0e0;
 	font-family:Arial;
 }
 
@@ -72,7 +72,7 @@ nav{
 nav a{
 	font-size: 18px;
 	font-weight:200;
-	font-family:OpenSans;
+	font-family:OpenSans, Arial;
 	text-decoration: none;
 	padding: 10px;
 	color:#10d;
@@ -96,11 +96,47 @@ nav a:hover{
 }
 
 #conteudo{
-	width: 910px;
-	height: 700px;
+	width: 960px;
+	height: 722px;
 	margin: 2px auto;
+	padding:2px;
 	background-color: #fff;
 }
+#imgTopo{
+	width:100%;;
+	height:200px;
+	overflow:hidden;
+	/*padding:1px;*/
+	background-color:aquamarine;
+	margin-bottom:2px;
+}
+.imgCenter{
+	float:left;
+}
+.imgSmall{
+	width:320px;
+	height:300px;
+	background-color:aquamarine;
+	margin:0px 2px 2px 0px;
+	float:left;
+}
+
+#imgBottom{
+	width:641px;
+	height:220px;
+	background-color:aquamarine;
+	margin:2px 2px 2px 0px;
+	position:relative;
+	clear:both;
+}
+#imgSide{
+	width:313px;
+	height:521px;
+	margin:0px 2px 1px 0px;
+	background-color:red;
+	float:right;
+}
+
 
 /*footer*/
 footer{
